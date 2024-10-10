@@ -7,7 +7,7 @@ Heysel Guadalupe Argueta Hernández AH230907
 
 ## Nombre y logo
 
-![Uploading logo.png…]()
+![Uploading logo.png…]
 
 
 ## Enlace video
