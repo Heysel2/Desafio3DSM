@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="aja1">#e1bee7</color>
+    <color name="aja2">#512da8</color>
+    <color name="elgri1">#616161</color>
+    <color name="elgri2">#9e9e9e</color>
+</resources>

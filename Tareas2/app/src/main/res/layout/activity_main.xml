@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/etBuscador"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="Buscar"
+        android:layout_toStartOf="@id/buscar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <Button
+        android:id="@+id/buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:layout_margin="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="401dp"
+        android:layout_height="643dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etBuscador"
+        tools:listitem="@layout/item_resource" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="@string/agre"
+        android:textColor="@color/white"
+        android:background="@drawable/circular_button_background"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:padding="0dp"/>
+
+</RelativeLayout>

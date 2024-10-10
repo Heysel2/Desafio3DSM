@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:background">@color/elgri1</item>
+        <item name="android:windowBackground">@color/aja1</item>
+        <item name="android:textColor">@color/aja1</item>
+    </style>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/dialog_background">
+
+
+<EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/titu"
+        android:textColor="@color/aja1"
+        />
+
+    <EditText
+        android:id="@+id/editDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/descrip"
+        android:textColor="@color/aja1"
+        />
+
+    <EditText
+        android:id="@+id/editType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tipo"
+        android:textColor="@color/aja1"
+        />
+
+    <EditText
+        android:id="@+id/editUrlRecurso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL del recurso"
+        android:textColor="@color/aja1"
+        />
+
+    <EditText
+        android:id="@+id/editUrlImagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/img"
+        android:textColor="@color/aja1"
+        />
+</LinearLayout>

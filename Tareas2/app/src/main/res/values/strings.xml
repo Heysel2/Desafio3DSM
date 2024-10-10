@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tareas2</string>
+    <string name="img">URL de la Imagen</string>
+    <string name="recu">URL de la Imagen</string>
+    <string name="tipo">Tipo</string>
+    <string name="descrip">Descripción</string>
+    <string name="titu">Título</string>
+    <string name="agre">+</string>
+</resources>

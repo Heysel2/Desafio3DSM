@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/resourceImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/resourceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/aja2"/>
+
+    <TextView
+        android:id="@+id/resourceDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/elgri2" />
+
+    <TextView
+        android:id="@+id/resourceType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/elgri2" />
+
+    <TextView
+        android:id="@+id/urlResouce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/elgri2" />
+</LinearLayout>
